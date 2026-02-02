@@ -7,7 +7,7 @@ const AddProjectMember = ({ isDialogOpen, setIsDialogOpen }) => {
 
     const [searchParams] = useSearchParams();
 
-    const id = searchParams.get('id')
+    const id = searchParams.get('id');
 
     const currentWorkspace = useSelector((state) => state.workspace?.currentWorkspace || null);
 
